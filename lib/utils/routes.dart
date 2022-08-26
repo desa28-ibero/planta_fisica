@@ -12,6 +12,6 @@ class RoutePaths {
 
 final routes = {
   RoutePaths.splash: (_) => const SplashScreen(),
-  RoutePaths.login: (_) => const LoginScreen(),
+  RoutePaths.login: (_) => LoginScreen(),
   RoutePaths.home: (_) => const HomeScreen(),
 };

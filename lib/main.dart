@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
               color: CustomColors.mainColor),
         ),
         builder: EasyLoading.init(),
-        initialRoute: '/',
+        initialRoute: '/login',
         routes: routes,
         localizationsDelegates: const [GlobalMaterialLocalizations.delegate],
         supportedLocales: const [Locale('es'), Locale('en')],
