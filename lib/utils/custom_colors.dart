@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 class CustomColors {
   static const Color dartMainColor = Color(0xFF770014);
   static const Color mainColor = Color(0xFFED1C24);
+  static const Color greyColor = Color.fromARGB(255, 230, 228, 228);
+  //static const Color greyColor1 = Color.fromARGB(255, 241, 241, 241);
+  static const Color redlightColor = Color.fromARGB(255, 156, 17, 5);
 
   static Map<int, Color> color = {
     50: const Color.fromRGBO(119, 0, 20, .1),
